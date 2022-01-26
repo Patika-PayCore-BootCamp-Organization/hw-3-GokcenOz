@@ -2,19 +2,24 @@
 hw-3-GokcenOz created by GitHub Classroom
 
 
-#1 – SOAP vs Restful ?
+**1 – SOAP vs Restful ?**
+
 SOAP, developed by Microsoft, was meant to take the place of binary technologies in the past that were not able to work with the internet the way we know it today. It is an XML-based protocol that allows multiple computers to communicate with each other. It works in many programming languages with varying degrees of difficulty. It also comes with error reporting that can be automated, which is important to your security, especially when using another company’s web service.
 REST is another communication protocol like SOAP, but you don’t have to build the XML structure that’s required every time you perform a task. This makes REST a more streamlined version of SOAP. The most common web services output data in CSV (Command Separated Value), JSON (JavaScript Object Notation), and RSS (Really Simple Syndication). Also, 75% of developers use REST.
 
 2 - Difference between acceptance test and functional test ?
+
 Functional tests are tests testing functions of the software, what it does. For example, if every menu item in the browser you have open now does intended job.
 Acceptance tests are tests against some criteria of acceptance. Like some team tests the software on behalf of who ordered it to see if it fulfills contract requirements or some team within company shipping the software tests if it matches the readiness for shipping acceptance criteria.
 
+
 3 - What is Mocking ?
+
 Mocking is primarily used in unit testing. An object under test may have dependencies on other (complex) objects. To isolate the behavior of the object you want to replace the other objects by mocks that simulate the behavior of the real objects. This is useful if the real objects are impractical to incorporate into the unit test.
 In short, mocking is creating objects that simulate the behavior of real objects.
 
 4 - What is a reasonable code coverage % for unit tests (and why) ?
+
 it is generally accepted that 80% coverage is a good goal to aim for. Trying to reach a higher coverage might turn out to be costly, while not necessary producing enough benefit. The first time you run your coverage tool you might find that you have a fairly low percentage of coverage.
 Why?
 Code coverage basically show you how much of your code is actually being used by your unit tests. Running a code coverage report helps show what code is not being used to help you write more unit tests. Code coverage can also show which branches in conditional logic are not being covered
