@@ -1,6 +1,8 @@
 # hw-3-GokcenOz
 hw-3-GokcenOz created by GitHub Classroom
-1 – SOAP vs Restful ?
+
+
+#1 – SOAP vs Restful ?
 SOAP, developed by Microsoft, was meant to take the place of binary technologies in the past that were not able to work with the internet the way we know it today. It is an XML-based protocol that allows multiple computers to communicate with each other. It works in many programming languages with varying degrees of difficulty. It also comes with error reporting that can be automated, which is important to your security, especially when using another company’s web service.
 REST is another communication protocol like SOAP, but you don’t have to build the XML structure that’s required every time you perform a task. This makes REST a more streamlined version of SOAP. The most common web services output data in CSV (Command Separated Value), JSON (JavaScript Object Notation), and RSS (Really Simple Syndication). Also, 75% of developers use REST.
 
